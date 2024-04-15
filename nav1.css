@@ -1,0 +1,76 @@
+.contenedor {
+    background-color: rgb(65, 73, 88);
+    height: 50px;
+    width: 690px;
+    line-height: 1px;
+}
+
+.navbar {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.Home {
+    color: white;
+}
+
+.Link {
+    color: gray;
+}
+
+.Dropdown {
+    color: gray;
+}
+
+.Disabled {
+    color: rgb(87, 87, 87);
+}
+
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.navbar,
+.Home,
+.Link,
+.Dropdown,
+.Disabled,
+.Search1 {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-size: 24px;
+}
+
+.Search1 input[type="search"] {
+    height: 35px; 
+    padding: 8px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+    
+}
+
+.Search1 button[type="submit"] {
+    padding: 8px 20px; 
+    border: 1px solid green; 
+    border-radius: 5px; 
+    background-color: transparent; 
+    color: green; 
+    font-size: 16px;
+    cursor: pointer; 
+    
+}
+
+.Search1 button[type="submit"]:hover {
+    background-color: green; 
+    color: white; 
+}
