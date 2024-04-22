@@ -1,0 +1,68 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    grid-template-rows: auto auto auto; 
+    gap: 30px; 
+}
+
+
+  .number-box {
+    width: 80px; 
+    height: 60px; 
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; 
+    margin-top: 30px;
+    margin-left: 40px;
+    
+  }
+
+.GREEN {
+    background-color: green;
+    grid-column: 1 / 4 ; 
+    height: 150px;
+}
+
+.YELLOW {
+    background-color: yellow;
+    grid-column: 2 / 1; 
+    height: 300px;
+}
+
+.YELLOW .number-list {
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-template-rows: auto auto; 
+    gap: 10px; 
+}
+
+.RED {
+    background-color: red;
+    grid-column: 2 / 2; 
+    
+}
+
+.RED .number-list {
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-template-rows: auto auto; 
+    
+}
+
+.BLUE {
+    background-color: blue;
+    grid-column: 3 / 3; 
+    grid-row: 2 / 4;
+    
+    
+}
+
+.ORANGE {
+    background-color: orange;
+    grid-column: 1 / 3; 
+    height: 150px;
+    
+}
